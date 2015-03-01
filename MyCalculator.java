@@ -4,6 +4,7 @@
 **/
 
 public class MyCalculator {
+
 	// add two numbers
 	public float add(float a,float b){
 		return a+b;
@@ -38,7 +39,7 @@ public class MyCalculator {
 	public int nfactorial(int n){
 		int factorial = 1;
 		
-		for(int i=1;i<n;i++)
+		for(int i=1;i<=n;i++) //changed i<n to i<=n
 			factorial *= i;
 		
 		return factorial;
@@ -57,7 +58,9 @@ public class MyCalculator {
 			else return middle;
 		}
 		
+		
 		return 1;
 	}
+	}
+
 	
-}
